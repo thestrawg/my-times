@@ -1,0 +1,55 @@
+div, main {
+  border: 1px black solid;
+}
+
+/* Header elements */
+header {
+  display: flex;
+  flex-direction: row;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  align-items: center;
+}
+.logo {
+  display: inline-flex;
+  color: MediumAquamarine;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 30px;
+}
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+nav li {
+  display: inline-block;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+a {
+  color: black;
+}
+
+/* Main elements */
+
+main {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column.large {
+  width: 630px;
+}
+.column.medium {
+  width: 300px;
+}
+.column.small {
+  width: 240px;
+}
+.content {
+  display: block;
+}
