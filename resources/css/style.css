@@ -1,4 +1,14 @@
-div, main {
+body {
+  font-family: Georgia, serif;
+  font-size: 17px;
+  color: black;
+}
+h2 {
+  font-size: 24px;
+  /*display: flex;*/
+}
+
+div {
   border: 1px black solid;
 }
 
@@ -9,7 +19,6 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  align-items: center;
 }
 .logo {
   display: inline-flex;
@@ -36,13 +45,19 @@ a {
 
 main {
   display: flex;
+  flex-grow: 1;
 }
 .column {
   display: flex;
   flex-direction: column;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin: 15px;
 }
 .column.large {
   width: 630px;
+/*  flex-direction: row; */
+  /* flex-wrap: wrap; */
 }
 .column.medium {
   width: 300px;
@@ -50,6 +65,49 @@ main {
 .column.small {
   width: 240px;
 }
-.content {
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.story-headline {
+  height: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
   display: block;
+  margin: 15px 0 0 0;
+}
+.story-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-story {
+  background-image: url('../images/img-story-main.png');
+  font-size: 40px;
+  text-align: left;
+  flex-grow: 2;
+  margin: 0;
+}
+#earth {
+  background-image: url('../images/img-story-2.png');
+  flex-grow: 1;
+  text-align: center;
+}
+#camera {
+  background-image: url('../images/img-story-3.png');
+  flex-grow: 1;
+  text-align: center;
+}
+#cat {
+  background-image: url('../images/img-story-1.png');
+  flex-grow: 1;
+  text-align: center;
 }
