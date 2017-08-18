@@ -12,25 +12,22 @@
         <span>My Times</span>
       </div>
       <nav>
-        <ul>
-          <li><a href="#world">World</a></li>
-          <li><a href="#usa">U.S.</a></li>
-          <li><a href="#tech">Tech</a></li>
-          <li><a href="#science">Science</a></li>
-        </ul>
+        <span><a href="#">World</a></span>
+        <span><a href="#">U.S.</a></span>
+        <span><a href="#">Tech</a></span>
+        <span><a href="#">Science</a></span>
       </nav>
     </header>
 
     <main>
       <!-- First column -->
       <div class="column large">
-        <div class="story-container">
-          <div class="story">
+        <div class="main-story-container" >
             <div class="story-headline" id="main-story">
                 Mother of Three Buys Tuna Steak at Phish Concert.
                 Leaves, "Feeling Funny."
             </div>
-            <div class="story-text">
+            <div class="story">
               <p class="narrative">
               MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur
               adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim.
@@ -45,64 +42,57 @@
               aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam
               sit amet fringilla massa.</p>
             </div>
-          </div>
         </div>
+
         <div class="story-container">
           <div class="story">
-            <div class="story-text">
-              <h2>Orca Spends Vacation at Land World Puget</h2>
-              <p class="narrative">
-              PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula
-              ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer
-              vitae nisi pulvinar ante accumsan...</p>
-            </div>
+            <h2>Orca Spends Vacation at Land World Puget</h2>
+            <p class="narrative">
+            PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula
+            ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer
+            vitae nisi pulvinar ante accumsan...</p>
           </div>
-          <div class="story">
-            <div class="story-headline" id="earth">
-              Earth Spins Backwards for 2017
-            </div>
+          <div class="story-headline" id="earth">
+            Earth Spins Backwards for 2017
           </div>
         </div>
+
         <div class="story-container">
           <div class="story">
-            <div class="story-text">
-              <h2>Burger for Breakfast: How Early is too Early?</h2>
-              <p class="narrative">
-              Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in
-              faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum
-              enim. Praesent eu nisl erat.</p>
-            </div>
+            <h2>Burger for Breakfast: How Early is too Early?</h2>
+            <p class="narrative">
+            Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in
+            faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum
+            enim. Praesent eu nisl erat.</p>
           </div>
-          <div class="story">
-            <div class="story-headline" id="camera">
-              Research Shows Cameras Erase Memory
-            </div>
+          <div class="story-headline" id="camera">
+            Research Shows Cameras Erase Memory
           </div>
         </div>
       </div>
 
       <!-- Second column -->
       <div class="column medium">
-          <div class="story">
-            <div class="story-text">
-                <h2>FBI Finds Action Star Guilty of False Advertising</h2>
-                <p class="narrative">
-                WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci
-                aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est,
-                nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem,
-                vitae sollicitudin turpis pulvinar eget. Morbi pellentesque
-                consectetur mi id auctor. Phasellus tincidunt orci mauris,
-                placerat pharetra urna fringilla vitae. Morbi eget rutrum urna.
-                Cras condimentum augue ut ante sollicitudin interdum.
-                Pellentesque cursus dolor at tincidunt cursus.
-                Vestibulum blandit aliquam felis...</p>
+          <div class="story-container">
+            <div class="story">
+              <h2>FBI Finds Action Star Guilty of False Advertising</h2>
+              <p class="narrative">
+              WASHINGTON DC- Donec luctus sem augue, rutrum posuere orci
+              aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est,
+              nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem,
+              vitae sollicitudin turpis pulvinar eget. Morbi pellentesque
+              consectetur mi id auctor. Phasellus tincidunt orci mauris,
+              placerat pharetra urna fringilla vitae. Morbi eget rutrum urna.
+              Cras condimentum augue ut ante sollicitudin interdum.
+              Pellentesque cursus dolor at tincidunt cursus.
+              Vestibulum blandit aliquam felis...</p>
             </div>
           </div>
-          <div class="story">
+          <div class="story-container">
             <div class="story-headline" id="cat">
               Cats in Control-Is It a Thing?
             </div>
-            <div class="story-text">
+            <div class="story">
                 <p class="narrative">
                 BROOKLYN, NY- In molestie nulla sodales sit amet. Proin
                 vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt
@@ -117,7 +107,7 @@
       <div class="column small">
           <img src="resources/images/img-news-bite.png" alt="Cookie">
           <div class="news-bites">
-            <h2>NEWS BITES</h2>
+            <div class="news-bites-title">NEWS BITES</div>
             <div class="news-bite">
               <p>Cat Emoji Goes Viral</p>
             </div>
@@ -140,4 +130,18 @@
       </div>
     </main>
   </body>
+  <footer>
+      <div class="info">
+        <span class="title">My Times</span>
+        <nav>
+          <span><a href="#">World</a></span>
+          <span><a href="#">U.S.</a></span>
+          <span><a href="#">Tech</a></span>
+          <span><a href="#">Science</a></span>
+        </nav>
+      </div>
+    <div class="copyright">
+      &copy; 2016, My Times (A Division of Codecademy bite)
+    </div>
+  </footer>
 </html>
